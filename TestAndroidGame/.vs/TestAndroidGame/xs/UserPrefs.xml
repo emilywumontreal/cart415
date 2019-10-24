@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{C5600F96-DE63-F436-4F46-5ED673D9E230}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Groundcollider.cs">
+    <Files>
+      <File FileName="Assets/scripts/MicControl.cs" Line="15" Column="14" />
+      <File FileName="Assets/scripts/AndriodJump.cs" Line="32" Column="30" />
+      <File FileName="Assets/scripts/CameraMove.cs" Line="40" Column="13" />
+      <File FileName="Assets/scripts/DeadCollider.cs" Line="4" Column="1" />
+      <File FileName="Assets/Groundcollider.cs" Line="52" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
