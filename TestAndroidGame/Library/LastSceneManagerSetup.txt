@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/TestKitty.unity
+- path: Assets/Scenes/KittyBuddyGo.unity
   isLoaded: 1
   isActive: 1

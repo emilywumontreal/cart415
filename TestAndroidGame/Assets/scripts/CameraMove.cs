@@ -8,8 +8,8 @@ public class CameraMove : MonoBehaviour
 {
     private Camera cam;
     public float posX;
-    public GameObject ground;
-    private bool groundGameOver;
+    public GameObject gameManager;
+   // private bool groundGameOver;
 
     // Start is called before the first frame update
     void Start()
@@ -21,14 +21,14 @@ public class CameraMove : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        groundGameOver = ground.GetComponent<DeadCollider>().gameOver;
-        if (groundGameOver == false)
+       // groundGameOver = ground.GetComponent<DeadCollider>().gameOver;
+        if (gameManager.GetComponent<GameManage>().gameOver == false)
         {
             posX++;
             // Debug.Log("here"+cam.transform.position.x);
             //cam.transform.position.Set(posX, cam.transform.position.y, cam.transform.position.z);
             //cam.GetComponent<Transform>().position();
-            if (cam.transform.position.x > 67)
+            if (cam.transform.position.x > 200)
             {
                 cam.transform.position = new Vector3(0f, cam.transform.position.y, cam.transform.position.z);
             }
@@ -39,6 +39,7 @@ public class CameraMove : MonoBehaviour
         }
         else
         {
+         
             Debug.Log("gameOver");
             Application.Quit();
         }
