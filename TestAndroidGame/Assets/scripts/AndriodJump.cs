@@ -17,7 +17,7 @@ public class AndriodJump : MonoBehaviour
      //   Debug.Log(rigidCat);
 
  
-}
+    }
 
 // Update is called once per frame
 void FixedUpdate()

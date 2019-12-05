@@ -9,14 +9,18 @@ public class GameManage : MonoBehaviour
     Scene p_Scene;
    public int sceneNumber;*/
     public bool gameOver;
+    public int checkpoint;
     void Start()
     {
        // DontDestroyOnLoad(this.gameObject);
         gameOver = false;
+        checkpoint = PlayerPrefs.GetInt("checkpoint", 10);
+        Debug.Log("checkpoint==="+checkpoint);
+
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         /*if (changeScene == true &&sceneNumber==1)
         {

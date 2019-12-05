@@ -6,6 +6,8 @@ public class GroundCollider : MonoBehaviour
 
 {
     public bool isGround;
+    public int checkpoint;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,11 +26,13 @@ public class GroundCollider : MonoBehaviour
 
         if (col.gameObject.name.Equals("blackcat"))
         {
-            Debug.Log("OnCollisionEnter2D" + col.gameObject.name);
+          //  Debug.Log("OnCollisionEnter2D" + col.gameObject.name);
 
             isGround = true;
             //Application.Quit();
         }
+
+
     }
 
 
